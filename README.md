@@ -1,3 +1,3 @@
 # ZVS_Driver
 
-## This
+## This is a ZVS(Zero Voltage Switching) Mazzalli circuit
