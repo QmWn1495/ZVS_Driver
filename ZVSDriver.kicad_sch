@@ -2275,7 +2275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:RES-TH_BD2.5-L6.5-P10.50-D0.6"
+		(property "Footprint" "LCSCParts:RES-TH_BD2.5-L6.5-P10.50-D0.6"
 			(at 132.08 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -2388,7 +2388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-TH_L7.2-W2.5-P5.00-D0.5"
+		(property "Footprint" "LCSCParts:CAP-TH_L7.2-W2.5-P5.00-D0.5"
 			(at 200.66 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2503,7 +2503,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSCParts2:TO-247AC-3_L15.8-W5.0-P5.46-L"
+		(property "Footprint" "LCSCParts:TO-247AC-3_L15.8-W5.0-P5.46-L"
 			(at 167.64 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -2618,7 +2618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:RES-TH_BD5.0-L15.5-P19.50-D0.7"
+		(property "Footprint" "LCSCParts:RES-TH_BD5.0-L15.5-P19.50-D0.7"
 			(at 95.25 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -2731,7 +2731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:RES-TH_BD5.0-L15.5-P19.50-D0.7"
+		(property "Footprint" "LCSCParts:RES-TH_BD5.0-L15.5-P19.50-D0.7"
 			(at 95.25 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2844,7 +2844,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:FUSE-TH_L19.1-W5.1"
+		(property "Footprint" "LCSCParts:FUSE-TH_L19.1-W5.1"
 			(at 201.93 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -2957,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:RES-TH_BD2.5-L6.5-P10.50-D0.6"
+		(property "Footprint" "LCSCParts:RES-TH_BD2.5-L6.5-P10.50-D0.6"
 			(at 146.05 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -3070,7 +3070,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:IND-TH_L23.0-W12.0-P9.00-D1.4"
+		(property "Footprint" "LCSCParts:IND-TH_L23.0-W12.0-P9.00-D1.4"
 			(at 173.99 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -3184,7 +3184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XY126V-5.0-2P"
+		(property "Footprint" "LCSCParts:CONN-TH_XY126V-5.0-2P"
 			(at 113.03 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -3297,7 +3297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCSCParts2:DO-41_BD2.4-L4.7-P8.70-D0.8-FD"
+		(property "Footprint" "LCSCParts:DO-41_BD2.4-L4.7-P8.70-D0.8-FD"
 			(at 171.45 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -3412,7 +3412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CONN-TH_XY126V-5.0-3P"
+		(property "Footprint" "LCSCParts:CONN-TH_XY126V-5.0-3P"
 			(at 121.92 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -3497,119 +3497,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSCParts:C_Film_334_630V")
-		(at 87.63 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3cdb59c-c002-477f-b72e-f4703cb354b1")
-		(property "Reference" "C1"
-			(at 87.63 114.3 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Film_334_630V"
-			(at 87.63 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-TH_L18.0-W7.5-P15.00-D1.2"
-			(at 87.63 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/CBB-Capacitors-polypropylene-film_KNSCHA-MPP334J2J15AJ22800_C506837.html"
-			(at 87.63 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 87.63 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MPP334J2J15AJ22800"
-			(at 87.63 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C506837"
-			(at 87.63 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "7ed57c45-25c7-48d6-af91-4a280fe69245")
-		)
-		(pin "1"
-			(uuid "02456d5c-9ce0-4daf-8701-34ea4a8af7a4")
-		)
-		(instances
-			(project "ZVSDriver"
-				(path "/d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LCSCParts:C_Elec_1000uF_50V")
 		(at 237.49 93.98 0)
 		(unit 1)
@@ -3643,7 +3530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:CAP-TH_BD12.5-P5.00-D0.6-FD"
+		(property "Footprint" "LCSCParts:CAP-TH_BD12.5-P5.00-D0.6-FD"
 			(at 237.49 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3756,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LCSCParts2:DO-41_BD2.4-L4.7-P8.70-D0.8-FD"
+		(property "Footprint" "LCSCParts:DO-41_BD2.4-L4.7-P8.70-D0.8-FD"
 			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3838,6 +3725,119 @@
 		)
 	)
 	(symbol
+		(lib_id "LCSCParts:C_Film_334_630V")
+		(at 82.55 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcfc327f-2bf0-46b8-a2ce-bd9f26c44055")
+		(property "Reference" "C1"
+			(at 82.55 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Film_334_630V"
+			(at 82.55 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSCParts:CAP-TH_L18.0-W7.5-P15.00-D1.2"
+			(at 82.55 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/CBB-Capacitors-polypropylene-film_KNSCHA-MPP334J2J15AJ22800_C506837.html"
+			(at 82.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KNSCHA(科尼盛)"
+			(at 82.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MPP334J2J15AJ22800"
+			(at 82.55 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C506837"
+			(at 82.55 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "902a0763-00ee-47b6-b7ca-2c00b36b20ef")
+		)
+		(pin "1"
+			(uuid "4d23bd53-5c61-43b2-aaf5-351906b53538")
+		)
+		(instances
+			(project "ZVSDriver"
+				(path "/d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LCSCParts:UF4007")
 		(at 120.65 77.47 0)
 		(unit 1)
@@ -3869,7 +3869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+		(property "Footprint" "LCSCParts:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
 			(at 120.65 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3982,7 +3982,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
+		(property "Footprint" "LCSCParts:DO-41_BD2.4-L4.7-P8.70-D0.9-RD"
 			(at 120.65 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4064,119 +4064,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSCParts:C_Film_334_630V")
-		(at 87.63 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fad5d8e3-2906-4957-9f5f-c62c20022ec7")
-		(property "Reference" "C2"
-			(at 87.63 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C_Film_334_630V"
-			(at 87.63 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:CAP-TH_L18.0-W7.5-P15.00-D1.2"
-			(at 87.63 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/CBB-Capacitors-polypropylene-film_KNSCHA-MPP334J2J15AJ22800_C506837.html"
-			(at 87.63 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 87.63 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MPP334J2J15AJ22800"
-			(at 87.63 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C506837"
-			(at 87.63 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b43dafd3-9dbe-4d18-8225-64836aa4cd64")
-		)
-		(pin "1"
-			(uuid "f0ffb386-9f63-4ab1-8e75-23006e8c7136")
-		)
-		(instances
-			(project "ZVSDriver"
-				(path "/d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LCSCParts:IRFP250NPBF")
 		(at 172.72 74.93 0)
 		(unit 1)
@@ -4210,7 +4097,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LCSCParts2:TO-247AC-3_L15.8-W5.0-P5.46-L"
+		(property "Footprint" "LCSCParts:TO-247AC-3_L15.8-W5.0-P5.46-L"
 			(at 172.72 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4289,6 +4176,119 @@
 			(project "ZVSDriver"
 				(path "/d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSCParts:C_Film_334_630V")
+		(at 82.55 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fced5d7f-790f-44b9-8f16-0a38efaf28a9")
+		(property "Reference" "C2"
+			(at 82.55 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C_Film_334_630V"
+			(at 82.55 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LCSCParts:CAP-TH_L18.0-W7.5-P15.00-D1.2"
+			(at 82.55 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/CBB-Capacitors-polypropylene-film_KNSCHA-MPP334J2J15AJ22800_C506837.html"
+			(at 82.55 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 82.55 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "KNSCHA(科尼盛)"
+			(at 82.55 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "MPP334J2J15AJ22800"
+			(at 82.55 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C506837"
+			(at 82.55 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fe3db0ed-08c0-4fa9-975a-a5209c866fa1")
+		)
+		(pin "1"
+			(uuid "ca6d459d-f622-4c6d-8a1a-6ba1d36313ac")
+		)
+		(instances
+			(project "ZVSDriver"
+				(path "/d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
+					(reference "C2")
 					(unit 1)
 				)
 			)
