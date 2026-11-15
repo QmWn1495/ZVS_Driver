@@ -4400,7 +4400,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:1N4742A-TAP")
-		(at 184.15 120.65 270)
+		(at 184.15 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4411,18 +4411,18 @@
 		(fields_autoplaced yes)
 		(uuid "9ab1470c-33c4-4c08-89db-32afd04e42b6")
 		(property "Reference" "D1"
-			(at 186.69 119.3799 90)
+			(at 186.69 120.6499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1N4742A"
-			(at 186.69 121.9199 90)
+			(at 181.61 119.3801 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4434,7 +4434,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:DO-41_BD2.4-L4.7-P8.70-D0.8-FD"
-			(at 176.53 120.65 0)
+			(at 191.77 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4445,7 +4445,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C6369271.pdf"
-			(at 173.99 120.65 0)
+			(at 194.31 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4467,7 +4467,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY(威世)"
-			(at 171.45 120.65 0)
+			(at 196.85 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4478,7 @@
 			)
 		)
 		(property "MPN" "1N4742A-TAP"
-			(at 168.91 120.65 0)
+			(at 199.39 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4489,7 +4489,7 @@
 			)
 		)
 		(property "LCSC Part" "C6369271"
-			(at 166.37 120.65 0)
+			(at 201.93 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4826,7 +4826,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:1N4742A-TAP")
-		(at 115.57 120.65 90)
+		(at 115.57 120.65 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4837,7 +4837,7 @@
 		(dnp no)
 		(uuid "acfc9997-9a98-4c7c-84e1-e17278931add")
 		(property "Reference" "D2"
-			(at 113.03 119.3799 90)
+			(at 118.11 121.9201 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4848,7 +4848,7 @@
 			)
 		)
 		(property "Value" "1N4742A"
-			(at 113.03 121.9199 90)
+			(at 118.11 119.3801 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4860,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:DO-41_BD2.4-L4.7-P8.70-D0.8-FD"
-			(at 123.19 120.65 0)
+			(at 107.95 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C6369271.pdf"
-			(at 125.73 120.65 0)
+			(at 105.41 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4893,7 +4893,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY(威世)"
-			(at 128.27 120.65 0)
+			(at 102.87 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +4904,7 @@
 			)
 		)
 		(property "MPN" "1N4742A-TAP"
-			(at 130.81 120.65 0)
+			(at 100.33 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +4915,7 @@
 			)
 		)
 		(property "LCSC Part" "C6369271"
-			(at 133.35 120.65 0)
+			(at 97.79 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
