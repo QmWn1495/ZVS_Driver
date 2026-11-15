@@ -2242,6 +2242,457 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 123.19 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17e87024-8940-4a33-922e-fbe77a2e4aa8")
+	)
+	(junction
+		(at 62.23 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e98b861-9c7c-4b11-b8ba-c433a5905732")
+	)
+	(junction
+		(at 143.51 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d7bdd87-c8d5-4c6c-b7ee-d60556dfab40")
+	)
+	(junction
+		(at 123.19 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f038566-c573-4f5d-8646-4eeeaa49ffca")
+	)
+	(junction
+		(at 127 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cd53a16-b8ee-4959-9e9b-1ce47f5a7c9f")
+	)
+	(junction
+		(at 137.16 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ffacc48-10d2-40f7-be9b-4ae3585e749f")
+	)
+	(junction
+		(at 130.81 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71a57e9b-ce8e-48fe-bde7-1f3d7bdb8d2c")
+	)
+	(junction
+		(at 143.51 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a07a5ef9-23f1-43b2-be38-dcb2f011650b")
+	)
+	(junction
+		(at 135.89 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c66181-848c-4fb9-935d-c45af7bc5af1")
+	)
+	(wire
+		(pts
+			(xy 135.89 157.48) (xy 123.19 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d4d37d-df3a-4cd5-a021-d8edd5d2e442")
+	)
+	(wire
+		(pts
+			(xy 127 148.59) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22871988-6433-4e6b-b630-e0871ddad3d9")
+	)
+	(wire
+		(pts
+			(xy 62.23 140.97) (xy 78.74 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23c63824-c378-4d21-b6e6-6e98e54ffe1c")
+	)
+	(wire
+		(pts
+			(xy 143.51 152.4) (xy 143.51 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27c8651e-8be8-4195-985f-f838c72be597")
+	)
+	(wire
+		(pts
+			(xy 123.19 157.48) (xy 123.19 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27eb877b-b455-4561-981a-75167a3971e6")
+	)
+	(wire
+		(pts
+			(xy 134.62 142.24) (xy 143.51 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "412a3913-64ce-41ac-bfa4-f4fe2e6df023")
+	)
+	(wire
+		(pts
+			(xy 62.23 143.51) (xy 62.23 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe5be5d-9c74-4bd6-bd57-932abf557b9c")
+	)
+	(wire
+		(pts
+			(xy 44.45 138.43) (xy 45.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f2d070-8125-49b7-af03-68b4cc8cbb2a")
+	)
+	(wire
+		(pts
+			(xy 130.81 160.02) (xy 143.51 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b568f96-a9b8-4006-bf76-d56893a87062")
+	)
+	(wire
+		(pts
+			(xy 137.16 152.4) (xy 143.51 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7767a79f-8b73-4a01-a740-1e0c55931bad")
+	)
+	(wire
+		(pts
+			(xy 143.51 142.24) (xy 143.51 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82aaba83-6e5e-4663-b6e5-188cab68b771")
+	)
+	(wire
+		(pts
+			(xy 130.81 162.56) (xy 130.81 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cd0060f-d881-4a57-9b6e-b4c05083c55d")
+	)
+	(wire
+		(pts
+			(xy 137.16 148.59) (xy 137.16 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a03d7443-13ce-4e9e-a981-b69ed9a0b76a")
+	)
+	(wire
+		(pts
+			(xy 143.51 160.02) (xy 143.51 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a54db844-189a-4b3e-beba-c50d960dcafc")
+	)
+	(wire
+		(pts
+			(xy 123.19 142.24) (xy 123.19 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24549a2-4262-40b5-b916-6ba34fe00814")
+	)
+	(wire
+		(pts
+			(xy 132.08 144.78) (xy 132.08 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d380d131-e764-486e-9608-090af4af7c23")
+	)
+	(wire
+		(pts
+			(xy 129.54 142.24) (xy 123.19 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4b0888a-48c7-4d57-85ac-fbdac6a01e58")
+	)
+	(wire
+		(pts
+			(xy 135.89 162.56) (xy 135.89 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf4162d-2adc-49ce-a77c-552a117b4d1a")
+	)
+	(wire
+		(pts
+			(xy 127 152.4) (xy 123.19 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e666663e-1a3a-4480-a060-cdc698d0d0ea")
+	)
+	(wire
+		(pts
+			(xy 123.19 152.4) (xy 123.19 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9792445-ec84-4519-ab3f-7baff4d5096e")
+	)
+	(wire
+		(pts
+			(xy 119.38 144.78) (xy 132.08 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c5b534-0ed9-43c7-9a66-8e1a7755dd42")
+	)
+	(global_label "VCC"
+		(shape output)
+		(at 62.23 143.51 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b270fec-5d82-4473-bb03-fd88ed674cb0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 62.23 150.1238 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 130.81 182.88 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "77a82820-5d9f-4c38-a293-52621e589ab9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.81 189.4938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 135.89 182.88 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "91580516-f88c-449a-8fbf-56b6ad4f9e08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.89 189.4938 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(symbol
 		(lib_id "LCSCParts:R_10000_0.25W")
@@ -2471,7 +2922,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:IRFP250NPBF")
-		(at 167.64 64.77 0)
+		(at 140.97 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2482,7 +2933,7 @@
 		(fields_autoplaced yes)
 		(uuid "27b235c5-2b8f-44a1-a2d8-5e5159ca3e4e")
 		(property "Reference" "Q1"
-			(at 175.26 63.4999 0)
+			(at 148.59 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2493,7 +2944,7 @@
 			)
 		)
 		(property "Value" "IRFP250N"
-			(at 175.26 66.0399 0)
+			(at 148.59 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2504,7 +2955,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:TO-247AC-3_L15.8-W5.0-P5.46-L"
-			(at 167.64 77.47 0)
+			(at 140.97 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2515,7 +2966,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_IR_IRFP250NPBF_IRFP250NPBF_C2580.html"
-			(at 167.64 80.01 0)
+			(at 140.97 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2526,7 +2977,7 @@
 			)
 		)
 		(property "Description" "IRFP250NPBF"
-			(at 167.64 64.77 0)
+			(at 140.97 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2537,7 +2988,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 167.64 82.55 0)
+			(at 140.97 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2999,7 @@
 			)
 		)
 		(property "MPN" "IRFP250NPBF"
-			(at 167.64 85.09 0)
+			(at 140.97 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +3010,7 @@
 			)
 		)
 		(property "LCSC Part" "C2580"
-			(at 167.64 87.63 0)
+			(at 140.97 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2588,8 +3039,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 143.51 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ed003b5-3dcf-4c0c-9abd-23d9b88106c3")
+		(property "Reference" "#PWR02"
+			(at 143.51 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 143.51 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 143.51 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7267a0a2-e391-4020-84ad-7a9d51b9155f")
+		)
+		(instances
+			(project "ZVSDriver"
+				(path "/d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LCSCParts:R_470_3W")
-		(at 95.25 73.66 0)
+		(at 130.81 177.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2599,7 +3128,7 @@
 		(dnp no)
 		(uuid "3920abec-24a0-4381-afb0-fab84e8a9f38")
 		(property "Reference" "R1"
-			(at 95.25 67.31 0)
+			(at 127.508 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2609,7 +3138,8 @@
 			)
 		)
 		(property "Value" "MOF3WS-470Ω±5% T"
-			(at 95.25 69.85 0)
+			(at 127 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2619,7 +3149,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:RES-TH_BD5.0-L15.5-P19.50-D0.7"
-			(at 95.25 81.28 0)
+			(at 138.43 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2630,7 +3160,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Metal-Oxide-Film-Resistors_470R-471-5_C121824.html"
-			(at 95.25 83.82 0)
+			(at 140.97 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2641,7 +3171,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 73.66 0)
+			(at 130.81 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2652,7 +3182,7 @@
 			)
 		)
 		(property "Manufacturer" "CCO(千志电子)"
-			(at 95.25 86.36 0)
+			(at 143.51 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2663,7 +3193,7 @@
 			)
 		)
 		(property "MPN" "MOF3WS-470Ω±5% T"
-			(at 95.25 88.9 0)
+			(at 146.05 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2674,7 +3204,7 @@
 			)
 		)
 		(property "LCSC Part" "C121824"
-			(at 95.25 91.44 0)
+			(at 148.59 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2700,8 +3230,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSCParts:R_470_3W")
-		(at 95.25 86.36 0)
+		(lib_id "power:GND")
+		(at 45.72 138.43 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2710,9 +3240,86 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "4f581ad4-1d76-4206-8e32-fc7ee7a973a6")
+		(property "Reference" "#PWR03"
+			(at 45.72 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 45.72 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "25be97b5-d463-4c95-aa87-91e74b09641f")
+		)
+		(instances
+			(project "ZVSDriver"
+				(path "/d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSCParts:R_470_3W")
+		(at 135.89 177.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "55e4e7f9-cc7d-417b-b2c1-9206a1dc71ff")
 		(property "Reference" "R2"
-			(at 95.25 80.01 0)
+			(at 138.684 178.054 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2722,7 +3329,8 @@
 			)
 		)
 		(property "Value" "MOF3WS-470Ω±5% T"
-			(at 95.25 82.55 0)
+			(at 139.7 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2732,7 +3340,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:RES-TH_BD5.0-L15.5-P19.50-D0.7"
-			(at 95.25 93.98 0)
+			(at 128.27 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2743,7 +3351,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Metal-Oxide-Film-Resistors_470R-471-5_C121824.html"
-			(at 95.25 96.52 0)
+			(at 125.73 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2754,7 +3362,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 86.36 0)
+			(at 135.89 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2765,7 +3373,7 @@
 			)
 		)
 		(property "Manufacturer" "CCO(千志电子)"
-			(at 95.25 99.06 0)
+			(at 123.19 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2776,7 +3384,7 @@
 			)
 		)
 		(property "MPN" "MOF3WS-470Ω±5% T"
-			(at 95.25 101.6 0)
+			(at 120.65 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2787,7 +3395,7 @@
 			)
 		)
 		(property "LCSC Part" "C121824"
-			(at 95.25 104.14 0)
+			(at 118.11 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2814,7 +3422,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:Fuse_10A")
-		(at 201.93 132.08 0)
+		(at 53.34 139.7 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2825,7 +3433,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f4eae67-03aa-4d4a-9d32-bffdab4d4c85")
 		(property "Reference" "F1"
-			(at 202.185 128.27 0)
+			(at 53.595 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2835,7 +3443,7 @@
 			)
 		)
 		(property "Value" "Fuse_10A"
-			(at 202.185 130.81 0)
+			(at 53.595 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2845,7 +3453,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:FUSE-TH_L19.1-W5.1"
-			(at 201.93 140.97 0)
+			(at 53.34 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2856,7 +3464,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C142683.pdf"
-			(at 201.93 143.51 0)
+			(at 53.34 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2867,7 +3475,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 132.08 0)
+			(at 53.34 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2878,7 +3486,7 @@
 			)
 		)
 		(property "Manufacturer" "Littelfuse(美国力特)"
-			(at 201.93 146.05 0)
+			(at 53.34 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2889,7 +3497,7 @@
 			)
 		)
 		(property "MPN" "0287010.PXCN"
-			(at 201.93 148.59 0)
+			(at 53.34 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2900,7 +3508,7 @@
 			)
 		)
 		(property "LCSC Part" "C142683"
-			(at 201.93 151.13 0)
+			(at 53.34 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3040,7 +3648,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:L_47_13.5A")
-		(at 173.99 125.73 0)
+		(at 114.3 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3051,7 +3659,7 @@
 		(fields_autoplaced yes)
 		(uuid "9424e631-94c6-4030-9147-592774c779e2")
 		(property "Reference" "L1"
-			(at 173.96 119.38 0)
+			(at 114.27 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3061,7 +3669,7 @@
 			)
 		)
 		(property "Value" "L_47_13.5A"
-			(at 173.96 121.92 0)
+			(at 114.27 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3071,7 +3679,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:IND-TH_L23.0-W12.0-P9.00-D1.4"
-			(at 173.99 133.35 0)
+			(at 114.3 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3690,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C3011541.pdf"
-			(at 173.99 135.89 0)
+			(at 114.3 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3093,7 +3701,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 125.73 0)
+			(at 114.3 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3104,7 +3712,7 @@
 			)
 		)
 		(property "Manufacturer" "PROD(谱罗德)"
-			(at 173.99 138.43 0)
+			(at 114.3 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3115,7 +3723,7 @@
 			)
 		)
 		(property "MPN" "PDMTAT068125-470MLU"
-			(at 173.99 140.97 0)
+			(at 114.3 160.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3126,7 +3734,7 @@
 			)
 		)
 		(property "LCSC Part" "C3011541"
-			(at 173.99 143.51 0)
+			(at 114.3 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3153,7 +3761,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:Screw_Terminal_01x02")
-		(at 113.03 90.17 0)
+		(at 40.64 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3163,7 +3771,7 @@
 		(dnp no)
 		(uuid "9920c75d-f898-4815-ad8a-27134a3f009a")
 		(property "Reference" "J1"
-			(at 118.11 88.8999 0)
+			(at 35.56 140.9701 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3174,7 +3782,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 118.11 91.4399 0)
+			(at 35.56 138.4301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3185,7 +3793,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:CONN-TH_XY126V-5.0-2P"
-			(at 113.03 99.06 0)
+			(at 40.64 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +3804,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY126V-5-0-2P_C557646.html"
-			(at 113.03 101.6 0)
+			(at 40.64 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3207,7 +3815,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 90.17 0)
+			(at 40.64 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3218,7 +3826,7 @@
 			)
 		)
 		(property "Manufacturer" "XINLAIYA(新莱亚)"
-			(at 113.03 104.14 0)
+			(at 40.64 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3229,7 +3837,7 @@
 			)
 		)
 		(property "MPN" "XY126V-5.0-2P"
-			(at 113.03 106.68 0)
+			(at 40.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3240,7 +3848,7 @@
 			)
 		)
 		(property "LCSC Part" "C557646"
-			(at 113.03 109.22 0)
+			(at 40.64 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3267,7 +3875,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:1N4742A-TAP")
-		(at 171.45 90.17 0)
+		(at 135.89 167.64 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3278,27 +3886,30 @@
 		(fields_autoplaced yes)
 		(uuid "9ab1470c-33c4-4c08-89db-32afd04e42b6")
 		(property "Reference" "D1"
-			(at 171.45 83.82 0)
+			(at 138.43 166.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4742A"
-			(at 171.45 86.36 0)
+			(at 138.43 168.9099 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LCSCParts:DO-41_BD2.4-L4.7-P8.70-D0.8-FD"
-			(at 171.45 97.79 0)
+			(at 128.27 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3309,7 +3920,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C6369271.pdf"
-			(at 171.45 100.33 0)
+			(at 125.73 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3320,7 +3931,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 90.17 0)
+			(at 135.89 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3331,7 +3942,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY(威世)"
-			(at 171.45 102.87 0)
+			(at 123.19 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +3953,7 @@
 			)
 		)
 		(property "MPN" "1N4742A-TAP"
-			(at 171.45 105.41 0)
+			(at 120.65 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3353,7 +3964,7 @@
 			)
 		)
 		(property "LCSC Part" "C6369271"
-			(at 171.45 107.95 0)
+			(at 118.11 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3380,7 +3991,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:Screw_Terminal_01x03")
-		(at 121.92 127 0)
+		(at 132.08 138.43 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3391,29 +4002,29 @@
 		(fields_autoplaced yes)
 		(uuid "9c41dd4e-339a-4718-8bfe-d81b3069d6ca")
 		(property "Reference" "J2"
-			(at 127 125.7299 0)
+			(at 138.43 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "Screw_Terminal_01x03"
-			(at 127 128.2699 0)
+			(at 138.43 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LCSCParts:CONN-TH_XY126V-5.0-3P"
-			(at 121.92 137.16 0)
+			(at 142.24 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3424,7 +4035,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Screw-terminal_XY126V-5-0-3P_C557647.html"
-			(at 121.92 139.7 0)
+			(at 144.78 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3435,7 +4046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 127 0)
+			(at 132.08 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3446,7 +4057,7 @@
 			)
 		)
 		(property "Manufacturer" "XINLAIYA(新莱亚)"
-			(at 121.92 142.24 0)
+			(at 147.32 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3457,7 +4068,7 @@
 			)
 		)
 		(property "MPN" "XY126V-5.0-3P"
-			(at 121.92 144.78 0)
+			(at 149.86 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3468,7 +4079,7 @@
 			)
 		)
 		(property "LCSC Part" "C557647"
-			(at 121.92 147.32 0)
+			(at 152.4 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,7 +4109,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:C_Elec_1000uF_50V")
-		(at 237.49 93.98 0)
+		(at 83.82 140.97 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3509,29 +4120,27 @@
 		(fields_autoplaced yes)
 		(uuid "a6fd2a3f-1e21-4ff1-bd57-d3ebb80b49c2")
 		(property "Reference" "C3"
-			(at 241.3 93.3449 0)
+			(at 84.455 133.35 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "C_Elec_1000uF_50V"
-			(at 241.3 95.8849 0)
+			(at 84.455 135.89 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "LCSCParts:CAP-TH_BD12.5-P5.00-D0.6-FD"
-			(at 237.49 106.68 0)
+			(at 96.52 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3542,7 +4151,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Others_Nantong-Jianghai-Capacitor-ECR1HBK102MLL125025_C233103.html"
-			(at 237.49 109.22 0)
+			(at 99.06 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3553,7 +4162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 237.49 93.98 0)
+			(at 83.82 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3564,7 +4173,7 @@
 			)
 		)
 		(property "Manufacturer" "Jianghai(南通江海)"
-			(at 237.49 111.76 0)
+			(at 101.6 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,7 +4184,7 @@
 			)
 		)
 		(property "MPN" "ECR1HBK102MLL125025"
-			(at 237.49 114.3 0)
+			(at 104.14 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,7 +4195,7 @@
 			)
 		)
 		(property "LCSC Part" "C233103"
-			(at 237.49 116.84 0)
+			(at 106.68 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3613,7 +4222,8 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:1N4742A-TAP")
-		(at 170.18 100.33 0)
+		(at 130.81 167.64 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3621,30 +4231,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "acfc9997-9a98-4c7c-84e1-e17278931add")
 		(property "Reference" "D2"
-			(at 170.18 93.98 0)
+			(at 128.27 166.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1N4742A"
-			(at 170.18 96.52 0)
+			(at 128.27 168.9099 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LCSCParts:DO-41_BD2.4-L4.7-P8.70-D0.8-FD"
-			(at 170.18 107.95 0)
+			(at 138.43 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3655,7 +4267,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C6369271.pdf"
-			(at 170.18 110.49 0)
+			(at 140.97 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3666,7 +4278,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 100.33 0)
+			(at 130.81 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3677,7 +4289,7 @@
 			)
 		)
 		(property "Manufacturer" "VISHAY(威世)"
-			(at 170.18 113.03 0)
+			(at 143.51 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3688,7 +4300,7 @@
 			)
 		)
 		(property "MPN" "1N4742A-TAP"
-			(at 170.18 115.57 0)
+			(at 146.05 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3699,7 +4311,7 @@
 			)
 		)
 		(property "LCSC Part" "C6369271"
-			(at 170.18 118.11 0)
+			(at 148.59 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3726,7 +4338,7 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:C_Film_334_630V")
-		(at 82.55 100.33 0)
+		(at 132.08 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3734,10 +4346,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bcfc327f-2bf0-46b8-a2ce-bd9f26c44055")
 		(property "Reference" "C1"
-			(at 82.55 93.98 0)
+			(at 132.08 145.542 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3747,7 +4358,8 @@
 			)
 		)
 		(property "Value" "C_Film_334_630V"
-			(at 82.55 96.52 0)
+			(at 132.08 144.78 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3757,7 +4369,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:CAP-TH_L18.0-W7.5-P15.00-D1.2"
-			(at 82.55 107.95 0)
+			(at 132.08 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,7 +4380,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/CBB-Capacitors-polypropylene-film_KNSCHA-MPP334J2J15AJ22800_C506837.html"
-			(at 82.55 110.49 0)
+			(at 132.08 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3779,7 +4391,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 100.33 0)
+			(at 132.08 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +4402,7 @@
 			)
 		)
 		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 82.55 113.03 0)
+			(at 132.08 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3801,7 +4413,7 @@
 			)
 		)
 		(property "MPN" "MPP334J2J15AJ22800"
-			(at 82.55 115.57 0)
+			(at 132.08 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3812,7 +4424,7 @@
 			)
 		)
 		(property "LCSC Part" "C506837"
-			(at 82.55 118.11 0)
+			(at 132.08 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,8 +4676,8 @@
 		)
 	)
 	(symbol
-		(lib_id "LCSCParts:IRFP250NPBF")
-		(at 172.72 74.93 0)
+		(lib_id "power:GND")
+		(at 123.19 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4074,9 +4686,87 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
+		(uuid "dc6dca2b-3bde-4e59-865e-6531a2714c4a")
+		(property "Reference" "#PWR01"
+			(at 123.19 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70366050-a0a5-4e47-8cc5-1a632e6bdf89")
+		)
+		(instances
+			(project "ZVSDriver"
+				(path "/d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LCSCParts:IRFP250NPBF")
+		(at 125.73 172.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(uuid "fc1cb3f9-0fb8-4994-b683-c66f148213de")
 		(property "Reference" "Q2"
-			(at 180.34 73.6599 0)
+			(at 118.11 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4087,7 +4777,7 @@
 			)
 		)
 		(property "Value" "IRFP250N"
-			(at 180.34 76.1999 0)
+			(at 118.11 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4098,7 +4788,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:TO-247AC-3_L15.8-W5.0-P5.46-L"
-			(at 172.72 87.63 0)
+			(at 125.73 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4109,7 +4799,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/MOSFET_IR_IRFP250NPBF_IRFP250NPBF_C2580.html"
-			(at 172.72 90.17 0)
+			(at 125.73 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4120,7 +4810,7 @@
 			)
 		)
 		(property "Description" "IRFP250NPBF"
-			(at 172.72 74.93 0)
+			(at 125.73 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4131,7 +4821,7 @@
 			)
 		)
 		(property "Manufacturer" "Infineon(英飞凌)"
-			(at 172.72 92.71 0)
+			(at 125.73 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,7 +4832,7 @@
 			)
 		)
 		(property "MPN" "IRFP250NPBF"
-			(at 172.72 95.25 0)
+			(at 125.73 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4153,7 +4843,7 @@
 			)
 		)
 		(property "LCSC Part" "C2580"
-			(at 172.72 97.79 0)
+			(at 125.73 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4183,7 +4873,8 @@
 	)
 	(symbol
 		(lib_id "LCSCParts:C_Film_334_630V")
-		(at 82.55 113.03 0)
+		(at 132.08 152.4 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4191,10 +4882,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fced5d7f-790f-44b9-8f16-0a38efaf28a9")
 		(property "Reference" "C2"
-			(at 82.55 106.68 0)
+			(at 132.334 155.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4204,7 +4894,8 @@
 			)
 		)
 		(property "Value" "C_Film_334_630V"
-			(at 82.55 109.22 0)
+			(at 132.08 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4214,7 +4905,7 @@
 			)
 		)
 		(property "Footprint" "LCSCParts:CAP-TH_L18.0-W7.5-P15.00-D1.2"
-			(at 82.55 120.65 0)
+			(at 132.08 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4225,7 +4916,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/CBB-Capacitors-polypropylene-film_KNSCHA-MPP334J2J15AJ22800_C506837.html"
-			(at 82.55 123.19 0)
+			(at 132.08 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4236,7 +4927,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 113.03 0)
+			(at 132.08 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4247,7 +4938,7 @@
 			)
 		)
 		(property "Manufacturer" "KNSCHA(科尼盛)"
-			(at 82.55 125.73 0)
+			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4949,7 @@
 			)
 		)
 		(property "MPN" "MPP334J2J15AJ22800"
-			(at 82.55 128.27 0)
+			(at 132.08 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4269,7 +4960,7 @@
 			)
 		)
 		(property "LCSC Part" "C506837"
-			(at 82.55 130.81 0)
+			(at 132.08 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
