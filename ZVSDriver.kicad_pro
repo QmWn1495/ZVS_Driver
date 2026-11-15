@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CWVoltageMultiplier.kicad_pro",
+    "filename": "ZVSDriver.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -441,18 +441,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "CWVoltageMultiplier.kicad_sch",
-        "name": "CWVoltageMultiplier",
+        "filename": "ZVSDriver.kicad_sch",
+        "name": "ZVSDriver",
         "uuid": "d2a5ec8b-4a53-427c-9b71-40d8e38acdec"
       }
     ],
-    "used_designators": "J2,R1,R3-4,Q1-2,U1-2,D1-4,C1-2,F1",
+    "used_designators": "R1,R3-6,J2,Q1-2,U1-4,D1-6,C1-2,C4,F1-2",
     "variants": []
   },
   "sheets": [
     [
       "d2a5ec8b-4a53-427c-9b71-40d8e38acdec",
-      "CWVoltageMultiplier"
+      "ZVSDriver"
     ]
   ],
   "text_variables": {},
