@@ -5375,36 +5375,57 @@
 			)
 		)
 	)
-	(gr_arc
-		(start 99.200411 62)
-		(mid 100.020392 60.020392)
-		(end 102 59.200411)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d2e827ee-a29b-4b5f-abf3-530c3ed430b9")
-	)
-	(gr_line
-		(start 99.63 58.2)
-		(end 168.13 58.44)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "544db16a-b906-4bdb-aed6-df11377b94a6")
-	)
 	(gr_line
 		(start 100 112)
-		(end 99.63 58.2)
+		(end 100 60.2)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "9654abca-991b-4c70-a67c-011ff4511f1c")
+		(uuid "c712e2f8-e167-417e-a232-b849a00fce8a")
+	)
+	(gr_arc
+		(start 100 60.2)
+		(mid 100.5858 58.7858)
+		(end 102 58.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b170f20a-12ed-4894-ad69-5f00eb646ced")
+	)
+	(gr_line
+		(start 102 58.2)
+		(end 166 58.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "70ecca08-11d1-42fc-81a9-d00ff179e9f6")
+	)
+	(gr_arc
+		(start 166 58.2)
+		(mid 167.4142 58.7858)
+		(end 168 60.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "4ab43ac1-77c9-4585-8398-1a39f97ecda5")
+	)
+	(gr_line
+		(start 168 60.2)
+		(end 168 112)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7fd0e467-bfc2-490b-953d-b810706bfe6a")
 	)
 	(gr_arc
 		(start 102 114)
@@ -5417,17 +5438,6 @@
 		(layer "Edge.Cuts")
 		(uuid "d30594c7-ae12-4570-82a7-c84b813a55f0")
 	)
-	(gr_arc
-		(start 166 60)
-		(mid 167.4142 60.5858)
-		(end 168 62)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "05319b54-84d9-4a75-8776-cdef9f6f1dd8")
-	)
 	(gr_line
 		(start 166 114)
 		(end 102 114)
@@ -5437,16 +5447,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "763e5c36-1a7f-401e-ab01-902d19db0545")
-	)
-	(gr_line
-		(start 168 62)
-		(end 168 112)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "aa890d5f-97ca-4916-9676-de13440e48c4")
 	)
 	(gr_arc
 		(start 168 112)
