@@ -1,15 +1,13 @@
 {
   "board": "C:\\Users\\npanx\\OneDrive\\Documents\\KiCadProjects\\ZVSDriver\\ZVSDriver.kicad_pcb",
-  "timestamp": "2026-11-15T19:00:35",
-  "total_violations": 11,
+  "timestamp": "2026-11-16T19:33:40",
+  "total_violations": 1,
   "violation_counts": {
-    "malformed_courtyard": 1,
-    "silk_edge_clearance": 6,
-    "lib_footprint_mismatch": 4
+    "malformed_courtyard": 1
   },
   "severity_counts": {
     "error": 1,
-    "warning": 10,
+    "warning": 0,
     "info": 0
   },
   "violations": [
@@ -20,106 +18,6 @@
       "location": {
         "x": 110.6,
         "y": 103.3,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 166.0,
-        "y": 114.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 166.0,
-        "y": 114.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 166.0,
-        "y": 114.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 166.0,
-        "y": 114.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 166.0,
-        "y": 114.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "silk_edge_clearance",
-      "severity": "warning",
-      "message": "Silkscreen clipped by board edge (board setup constraints silk clearance 0.1500 mm; actual 0.0000 mm)",
-      "location": {
-        "x": 166.0,
-        "y": 114.0,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "lib_footprint_mismatch",
-      "severity": "warning",
-      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
-      "location": {
-        "x": 103.5,
-        "y": 63.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "lib_footprint_mismatch",
-      "severity": "warning",
-      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
-      "location": {
-        "x": 164.5,
-        "y": 103.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "lib_footprint_mismatch",
-      "severity": "warning",
-      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
-      "location": {
-        "x": 103.5,
-        "y": 110.5,
-        "unit": "mm"
-      }
-    },
-    {
-      "type": "lib_footprint_mismatch",
-      "severity": "warning",
-      "message": "Footprint 'MountingHole_3.2mm_M3' does not match copy in library 'MountingHole'",
-      "location": {
-        "x": 164.5,
-        "y": 63.5,
         "unit": "mm"
       }
     }
