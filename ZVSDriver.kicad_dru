@@ -1,6 +1,5 @@
 (version 1)
-# JLCPCB 2-layer limits that Board Setup > Constraints cannot express.
-# Values are safe for both 1 oz and 2 oz outer copper.
+# JLCPCB 2-layer limits that Board Setup->Constraints cannot express.
 
 (rule "JLCPCB plated hole annular ring"
 	(constraint annular_width (min 0.25mm))
