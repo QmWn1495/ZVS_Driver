@@ -3708,7 +3708,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:RES-TH_BD2.4-L6.3-P10.30-D0.6"
+		(property "Footprint" "LCSCParts:RES-TH_BD2.5-L6.5-P10.50-D0.6"
 			(at 129.54 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -4205,7 +4205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:RES-TH_BD2.4-L6.3-P10.30-D0.6"
+		(property "Footprint" "LCSCParts:RES-TH_BD2.5-L6.5-P10.50-D0.6"
 			(at 171.45 134.62 0)
 			(hide yes)
 			(show_name no)
