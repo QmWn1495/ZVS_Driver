@@ -25,5 +25,10 @@ Full schematic, contains Input(J1, F1, C3, C4), Feed Choke(L1; rated 13.5A at 47
 
 (From KiCad's 3D Viewer)
 
+## Wiring Diagram
+
+<img width="620" height="560" alt="circuit" src="https://github.com/user-attachments/assets/f816d75d-82a1-483b-902e-9f9e0054c894" />
+
+
 
 
